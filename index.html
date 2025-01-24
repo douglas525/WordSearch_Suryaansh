@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GDF Unit 2 - Student Word Guessing Game Project</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The Mastery Coding word guessing game project.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Word Guess, Game">
+    <meta name="author" content="Mastery Coding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="mainContainer">
+            <h1>Guess the Word!</h1>
+            <div id="wrongGuessContainer">
+                <h3>Wrong Guess: <span id="mistakes"></span> / <span id="maxWrongGuesses"></span></h3>
+            </div>
+            <div id="wordContainer">
+                <div id="letterContainer">
+                </div>
+            </div>
+            <div id="keyboardContainer">
+            </div>
+        </div>
+        <div id="gameOverContainer">
+            <h1 id="gameOverStatus"></h1>
+            <button id="startOverButton" onclick="startOver()">Start Over</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
